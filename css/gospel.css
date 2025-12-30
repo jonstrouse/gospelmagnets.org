@@ -20,7 +20,7 @@ h3 {
   letter-spacing: .1em;
 }
 .navbar-collaps {
-  padding: 0;
+  padding: 0 !important;
 }
 .nav-item:first-of-type {
   margin-top: 1rem;
