@@ -9,8 +9,11 @@ h3 {
 /* navbar styles */
 .navbar {
   padding-top: 1rem;
-  background: rgb(50,105,132);
-  transition: .5s ease;
+  background: rgba(50,105,132,0);
+  transition: background 0.5s ease;
+}
+.navbar.scrolled {
+  background: rgba(50,105,132,0.95);
 }
 #logo {
   width: 40px;
@@ -32,11 +35,11 @@ h3 {
 
 /* fixed background for jumbotron and projects*/
 .jumbotron {
-  margin-top:85px;
   height: 70vh;
   background-image: url("../images/teal-stack-wide.png");
   background-position: center;
   background-size: cover;
+  filter: brightness(80%) contrast(110%);
 }
 
 /* jumbotron styles */
