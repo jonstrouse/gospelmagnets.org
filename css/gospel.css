@@ -147,6 +147,10 @@ header.scrolled {
   font-size: 1.1rem;
 }
 
+.mobile-divide {
+  display: none;
+}
+
 /* =========================
    CONTENT
 ========================= */
@@ -237,12 +241,19 @@ footer a {
   }
   .hero-content {
     display: block;
-    max-width: 800px;
+    width: 90%;
     margin: auto;
   }
 
   section {
     padding: 2.5rem 1.25rem;
+  }
+  .mobile-divide {
+    display: block;
+  }
+  .mobile-divide img {
+    filter: drop-shadow(2px 2px 4px #222);
+    width: 100%;
   }
   .resource-wrapper {
     flex-direction: column;
